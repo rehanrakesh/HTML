@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+            }
+
+            .navbar {
+                background-color: rgb(175, 235, 175);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .navbar2 ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .navbar2 ul {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                list-style-type: none;
+            }
+
+            .body {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 40px;
+                margin-top: 200px;
+            }
+
+            .body h1 {
+                font-size: 50px;
+                color: rgb(11, 156, 11);
+            }
+
+            .body a button {
+                border-radius: 20px;
+                border: none;
+                padding: 10px;
+                font-size: 15px;
+            }
+
+            .body2 {
+                display: flex;
+                justify-content: center;
+                padding: 50px;
+            }
+
+            .box-container {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 30px;
+                padding: 40px;
+                flex-wrap: wrap;
+            }
+
+            .box {
+                background-color: white;
+                width: 300px;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
+
+            .box h2 {
+                font-size: 18px;
+                color: rgb(11, 156, 11);
+                margin-bottom: 10px;
+            }
+
+            .box p {
+                font-size: 14px;
+                color: #555;
+                line-height: 1.6;
+            }
+
+            .login{
+            padding: 30px;
+            }
+
+            .login a button{
+                padding-right: 100px;
+                background-color: white;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 8px;
+            }
+
+            .footer{
+                padding: 30px;
+            }
+
+            .container{
+                display: flex;
+            }
+
+            .container .login,.footer{
+                width: 50%;
+            }
+            .footer div{
+                width: 50%;
+                float: right;
+                padding-right: 30px;
+            }
+            
+           
+            
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div>
+                <h1>Landing Page</h1>
+            </div>
+
+            <div class="navbar2">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="body">
+            <div>
+                <h1>Explore The World Of<br> Barbie</h1>
+                <a href=""><button>Explore more</button></a>
+            </div>
+            <div class="img">
+                <img src="image.png" alt="Image">
+            </div>
+        </div>
+
+        <div class="body2">
+            <h1>Barbie</h1>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <h2>DSA</h2>
+                <p>
+                    The term DSA stands for Data Structures and Algorithms. As the name itself suggests, it is a combination of two separate yet interrelated topics.
+                </p>
+            </div>
+            <div class="box">
+                <h2>HTML</h2>
+                <p>
+                    HTML stands for HyperText Markup Language. It is used to design web pages using the markup language.
+                </p>
+            </div>
+            <div class="box">
+                <h2>JavaScript</h2>
+                <p>
+                    JavaScript (JS) is the most popular lightweight, interpreted compiled programming language.
+                </p>
+            </div>
+        </div>
+        <div class="body2">
+            <h1>SignUp</h1>
+        </div>
+        <div class="container">
+            <div class="login">
+                <div>
+                    <h4>Your Name</h4>
+                    <a href=""><button>Enter your name here</button></a>
+                </div><br>
+                <div>
+                    <h4>Your Email</h4>
+                    <a href=""><button>Enter your email here</button></a>
+                </div><br>
+                <div>
+                    <h4>Your Password</h4>
+                    <a href=""><button>Enter your Password here</button></a>
+                </div>
+            </div>
+        
+            <div class="footer">
+                <div>
+                    <h4>Contact Us</h4>
+                    <p>A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar Pradesh - 201305</p><br>
+                
+                    <h4>More Information</h4>
+                    <p>Greetings to all the Geeks out there! We welcome you to the platform where we consistently strive to offer the best of education. This platform has been designed for every geek wishing to expand their knowledge, share their knowledge, and is ready to grab their dream job. We have millions of articles, live as well as online courses, thousands of tutorials, and much more just for the geek inside you. Thank you for choosing and supporting us!</p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    </html>
